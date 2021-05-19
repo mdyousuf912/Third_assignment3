@@ -8,6 +8,13 @@
         display: none;
     }
 }
+
+@media (max-width:1024px){
+    .hero-imgd, .descd, .lastbd, .leftd, .logod, .maind, .newd, .prevd, .rightd, .subd, .tagd{
+        display: none;
+    }
+}
+
 body{
     font-size: 18px;
 }
@@ -19,7 +26,7 @@ body{
 }
 
 .logo{
-    padding: 50px 0px 70px 50px;
+    padding: 50px 0px 70px 30px;
     object-fit: cover;
     display: block;
 }
@@ -46,12 +53,15 @@ body{
 .new{
     display: inline-block;
     border-radius: 20px;
-    width: 60px;
+    width: 40px;
     color: white;
     background-color: black;
     padding: 5px 10px;
-    margin-right: 15px ;
+    margin-right: 9px ;
     border: none;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 800;
 }
 
 .tag{
@@ -64,30 +74,33 @@ body{
 .lastb{
     display: inline-block;
     border-radius: 10px;
-    width: 155px;
+    width: 150px;
     height: 50px;
     color: white;
     background-color: hsl(0, 100%, 68%);
     padding: 5px 10px;
-    margin-right: 15px ;
+    margin-right: 13px ;
     border: none;
     font-family: 'Barlow Condensed', sans-serif;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     font-weight: 800;
 }
 
 span {
    font-family: 'Barlow Condensed', sans-serif;
-   letter-spacing: 5px;
+   letter-spacing: 4px;
    color: hsl(231, 7%, 65%);
    font-weight: 300;
+   font-size: 0.9rem;
 
 }
 .prev{
     display: inline-block;
     font-family: 'Barlow Condensed', sans-serif;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     font-weight: 300;
+    font-size: 0.8rem;
+
 
 }
 
@@ -102,11 +115,6 @@ span {
 
 /* Desktop view */
 
-/* @media (max-width:768px){
-    .hero-img, .desc, .lastb, .left, .logo, .main, .new, .prev, .right, .sub, .tag{
-        display: none;
-    }
-} */
 
 @media (min-width:1200px){
     .hero-img, .desc, .lastb, .left, .logo, .main, .new, .prev, .right, .sub, .tag{
