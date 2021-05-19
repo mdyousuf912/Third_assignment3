@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media (max-width:768px){
+    .hero-imgd, .descd, .lastbd, .leftd, .logod, .maind, .newd, .prevd, .rightd, .subd, .tagd{
+        display: none;
+    }
+}
+body{
+    font-size: 18px;
+}
+
+.main{
+    height: 65vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    padding: 50px 0px 70px 50px;
+    object-fit: cover;
+    display: block;
+}
+
+.left , .right{
+    width: 50%;
+}
+.right{
+    padding: 50px 0px 70px 130px;
+    background-color: hsl(207, 33%, 95%);
+}
+.hero-img{
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 25%;
+    
+}
+
+.sub{
+    margin: 20px;
+}
+
+.new{
+    display: inline-block;
+    border-radius: 20px;
+    width: 60px;
+    color: white;
+    background-color: black;
+    padding: 5px 10px;
+    margin-right: 15px ;
+    border: none;
+}
+
+.tag{
+    font-weight: 800;
+    font-size: 2.5rem;
+    padding: 20px 0px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.lastb{
+    display: inline-block;
+    border-radius: 10px;
+    width: 155px;
+    height: 50px;
+    color: white;
+    background-color: hsl(0, 100%, 68%);
+    padding: 5px 10px;
+    margin-right: 15px ;
+    border: none;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 800;
+}
+
+span {
+   font-family: 'Barlow Condensed', sans-serif;
+   letter-spacing: 5px;
+   color: hsl(231, 7%, 65%);
+   font-weight: 300;
+
+}
+.prev{
+    display: inline-block;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 3px;
+    font-weight: 300;
+
+}
+
+.desc{
+    padding-bottom: 40px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: hsl(231, 7%, 65%);
+}
+
+
+/* Desktop view */
+
+/* @media (max-width:768px){
+    .hero-img, .desc, .lastb, .left, .logo, .main, .new, .prev, .right, .sub, .tag{
+        display: none;
+    }
+} */
+
+@media (min-width:1200px){
+    .hero-img, .desc, .lastb, .left, .logo, .main, .new, .prev, .right, .sub, .tag{
+        display: none;
+    }
+
+    .leftd{
+        width: 50%;
+        padding-left: 50px;
+        float: left;
+        height: 100vh;
+    }
+
+    .rightd{
+        padding: 80px 100px 150px 120px;
+        width: 50%;
+        float: right;
+        display: flex;
+        justify-content: space-around;
+        background-color: hsl(207, 33%, 95%);
+        height: 100vh;
+    }
+
+    nav{
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 0.8rem;
+        font-weight: 800;
+    }
+
+    .logod{
+        padding: 40px 0px 150px 0px ;
+    }
+
+    .newd{
+        display: inline-block;
+        border-radius: 20px;
+        width: 50px;
+        font-size: 0.8rem;
+        color: white;
+        background-color: black;
+        padding: 5px 10px;
+        margin-right: 15px ;
+        border: none;
+    }
+
+    span {
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 0.8rem;
+        letter-spacing: 5px;
+        color: hsl(231, 7%, 65%);
+        font-weight: 300;
+     
+     }
+    
+    .tagd{
+        font-weight: 800;
+        font-size: 3.5rem;
+        padding: 15px 0px;
+        font-family: 'Barlow Condensed', sans-serif;
+    }
+
+    .descd{
+        padding-bottom: 40px;
+        font-family: 'Barlow', sans-serif;
+        font-weight: 500;
+        font-size: 1rem;
+        color: hsl(231, 7%, 65%);
+    }
+    
+
+    .lastbd{
+        display: inline-block;
+        border-radius: 10px;
+        width: 155px;
+        height: 50px;
+        color: white;
+        background-color: hsl(0, 100%, 68%);
+        padding: 5px 10px;
+        margin-right: 15px ;
+        border: none;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 0.8rem;
+        font-weight: 800;
+    }
+    
+    .prevd{
+        display: inline-block;
+        font-family: 'Barlow Condensed', sans-serif;
+        letter-spacing: 3px;
+        font-weight: 300;
+        font-size: 0.8rem;
+    
+    }
+
+    .hero-imgd{
+        width: 620px;
+        object-fit: cover;
+        position: absolute;
+        top: 35%;
+        
+    }
+
+}
