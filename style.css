@@ -38,6 +38,11 @@ body{
     padding: 50px 0px 70px 130px;
     background-color: hsl(207, 33%, 95%);
 }
+
+.right div{
+    background-color: black;
+    width: 40px;
+}
 .hero-img{
     width: 100%;
     object-fit: cover;
